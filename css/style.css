@@ -214,3 +214,127 @@ main {
   line-height: 24px;
   color: #333333;
 }
+
+.reviews {
+  padding: 50px;
+  margin: 0;
+  /* display: flex;
+  flex-direction: column; */
+  background-color: #f5f5f5;
+}
+
+.header_reviews {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #445161;
+  text-align: center;
+  margin-bottom: 35px;
+  display: block;
+}
+
+.reviews__wrp {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.reviews__item {
+  width: 48%;
+  display: flex;
+}
+
+.reviews__item-img {}
+
+.reviews__item-wrp {
+  background-image: url(/img/bg_review_195.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 16px;
+  margin-bottom: 24px;
+  margin-right: 32px;
+}
+
+.reviews__item-text {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  font-style: italic;
+  color: #333333;
+  margin: 14px 20px 15px 27px;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.reviews__item-sign {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #989898;
+  margin-top: 15px;
+  display: block;
+}
+
+/* BLOCK 6 */
+
+.prices {
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.prices__header {
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #445161;
+  display: block;
+}
+
+.prices__info {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.prices__info-item {
+  width: 300px;
+  background-color: #445162;
+  border-radius: 2%;
+  color: #ffffff;
+  list-style-position: inside;
+  height: 306px;
+}
+
+.prices__info-item:nth-child(2) {
+  height: 404px;
+}
+
+.prices__info-item:nth-child(3) {
+  height: 499px;
+}
+
+.prices__info-item-header {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: center;
+  display: block;
+}
+
+.prices__info-item-text {
+  font-size: 40px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: center;
+  display: block;
+}
+
+.prices__info-item-list {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.prices__info-item-button {}
