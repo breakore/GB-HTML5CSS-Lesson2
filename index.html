@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="/css/style.css">
+	<link href="/css/all.min.css" rel="stylesheet">
 	<title>Bin</title>
 </head>
 
@@ -36,7 +37,7 @@
 					optio repellendus provident consequuntur excepturi tenetur atque vitae inventore voluptatem vel neque, illum
 					ex
 					vero exercitationem! Perferendis!</p>
-				<video class="about-video">
+				<video class="about-video" poster="">
 					<source src="#">
 				</video>
 			</div>
@@ -191,7 +192,7 @@
 			<div class="prices__info">
 				<!-- column1 -->
 				<div class="prices__info-item">
-					<div class="prices__info-item-header">Standart</div>
+					<h2 class="prices__info-item-header">Standart</h2>
 					<span class="prices__info-item-text">100$</span>
 					<ol class="prices__info-item-list">
 						<li>Porro officia cumque sint deleniti;</li>
@@ -200,14 +201,14 @@
 						<li>Aperiam nulla ea neque.</li>
 					</ol>
 					<div class="prices__info-item-button">
-						<a href="#">BUY</a>
+						<a href="#" class="prices__info-item-button-text">buy</a>
 					</div>
 				</div>
 				<!-- column1 end-->
 				<!-- column2 -->
 				<div class="prices__info-item">
-					<span class="prices__info-item-header">Standart</span>
-					<span class="prices__info-item-text">100$</span>
+					<h2 class="prices__info-item-header">Premium</h2>
+					<span class="prices__info-item-text">150$</span>
 					<ol class="prices__info-item-list">
 						<li>Porro officia cumque sint deleniti;</li>
 						<li>Тemo facere rem vitae odit;</li>
@@ -218,14 +219,15 @@
 						<li>Cum odio, iste quia doloribus autem;</li>
 						<li>Aperiam nulla ea neque.</li>
 					</ol>
-					<div class="prices__info-item-button"><a href="#">BUY</a>
+					<div class="prices__info-item-button">
+						<a href="#" class="prices__info-item-button-text">buy</a>
 					</div>
 				</div>
 				<!-- column2 end-->
 				<!-- column3 -->
 				<div class="prices__info-item">
-					<span class="prices__info-item-header">Standart</span>
-					<span class="prices__info-item-text">100$</span>
+					<h2 class="prices__info-item-header">Lux</h2>
+					<span class="prices__info-item-text">200$</span>
 					<ol class="prices__info-item-list">
 						<li>Porro officia cumque sint deleniti;</li>
 						<li>Тemo facere rem vitae odit;</li>
@@ -240,15 +242,45 @@
 						<li>Cum odio, iste quia doloribus autem;</li>
 						<li>Aperiam nulla ea neque.</li>
 					</ol>
-					<div class="prices__info-item-button"><a href="#">BUY</a>
+					<div class="prices__info-item-button">
+						<a href="#" class="prices__info-item-button-text">buy</a>
 					</div>
 				</div>
-				<!-- column3 end-->
+			</div>
+			<!-- column3 end-->
 			</div>
 		</section>
-
 	</main>
-	<footer></footer>
+	<section class="contacts">
+		<span class="contacts__header">Contacts</span>
+		<div class="contacts__wrp">
+			<form class="contacts__form">
+				<input type="name" placeholder="Your name:" class="contacts__form-name">
+				<input type="email" placeholder="Your e-mail:" class="contacts__form-email">
+				<input type="text" placeholder="Your message:" class="contacts__form-text">
+				<a href="#" class="contacts__form-button">send</a>
+			</form>
+			<div class="contacts__social">
+				<div class="contacts__social-contacts">
+
+					<span class="contacts__social-contacts-skype"><i class="fab fa-skype icon"></i> here_your_login_skype</span>
+					<span class="contacts__social-contacts-icq"><i class="fas fa-atom icon"></i> 279679659</span>
+					<span class="contacts__social-contacts-mail"><i class="fas fa-at icon"></i> psdhtmlcss@mail.ru</span>
+					<span class="contacts__social-contacts-phone"><i class="fas fa-phone icon"></i> 80 00 4568 55 55</span>
+				</div>
+				<div class="contacts__social-sprites">
+					<a href="#" class="contacts__social-sprites-tweet"></a>
+					<a href="#" class="contacts__social-sprites-fb"></a>
+					<a href="#" class="contacts__social-sprites-in"></a>
+					<a href="#" class="contacts__social-sprites-g"></a>
+					<a href="#" class="contacts__social-sprites-yt"></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="contacts__copyright">
+		Copyright&copy; 2014 Product name - <span class="contacts__copyright-text">psd html css</span>
+	</footer>
 </body>
 
 </html>
